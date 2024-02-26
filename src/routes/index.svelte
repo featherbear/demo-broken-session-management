@@ -15,7 +15,7 @@
   <button
     class="btn btn-outline btn-info"
     on:click={() =>
-      prompt("Your session key", sessionStorage.getItem("session"))}
+      prompt("Your session token", sessionStorage.getItem("session"))}
     >Reveal session token</button
   >
 {:else}
